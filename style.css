@@ -1,29 +1,34 @@
-header{
-background-color: rgb(8, 53, 8);
-
+header {
+    background-color: rgb(8, 53, 8);
+font-weight: 300;
+height: 130px;
 }
-.logo{
+
+.logo {
     position: absolute;
-width: 238px;
-height: 238px;
-left: 70px;
-top: 28px;
-
+    width: 238px;
+    height: 238px;
+    left: 70px;
+    top: 28px;
 }
-.palais{
+
+.palais {
     display: flex;
     justify-content: center;
     color: white;
-    align-items: center;
     flex-wrap: wrap;
+    align-items: center;
 }
-.cacao{
-    position: absolute;
-width: 230px;
-height: 220px;
-display: flex;
-flex-wrap: wrap;
+/* .papilles{
+    display: flex;
+    flex-wrap: wrap-reverse;
+} */
 
+.cacao {
+    position: absolute;
+    width: 230px;
+    height: 220px;
+    display: flex;
 }
 
 
@@ -42,4 +47,4 @@ position: absolute;
 width: 3132px;
 height: 1202px;
 
- */
+*/
