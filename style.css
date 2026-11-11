@@ -9,7 +9,7 @@ header {
 
 .palais {
     background-color: rgb(44, 65, 44);
-    height: 100px;
+    height: 150px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -17,8 +17,8 @@ header {
 }
 
 .palais img {
-    max-width: 90px;
-    min-height: 90px;
+    max-width: 95px;
+    min-height: 95px;
 }
 
 .chocolat {
@@ -27,7 +27,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    text-align:initial;
+    text-align: initial;
     gap: 1160px;
 }
 
@@ -36,6 +36,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .cacao {
     max-width: 100%;
     max-height: 700px;
@@ -59,4 +60,86 @@ header {
     padding: 30px;
     width: 200px;
     text-align: center;
+    font-size: 25px;
+}
+
+/* a faire  */
+
+/* SECTION ENGAGEMENT */
+.engagement {
+    width: 100%;
+    /* background-color: #F7F3EB; */
+}
+
+/* TITRE */
+.titre-engagement {
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    color: #3B251D;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-family: "Antonio", sans-serif;
+}
+
+/* CONTENU */
+.contenuenga {
+    display: flex;
+    align-items: center;
+    gap: 600px;
+    margin-bottom: 60px;
+    background-color: aqua;
+}
+
+/* BLOC TEXTES */
+.bloctext {
+    width: 950px;
+    height: 700px;
+    background-color: #E8DED0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 30px;
+    /* box-sizing: border-box; */
+}
+
+/* PARAGRAPHES parfait */
+.bloctext p {
+    font-size: 40px;
+    line-height: 55px;
+    color: #3B251D;
+    margin: 0;
+}
+
+.texte-gauche {
+    text-align: left;
+}
+
+.texte-droite {
+    text-align: right;
+}
+
+/* BLOC DES 3 IMAGES */
+.blocimg {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+/* IMAGES DE DROITE */
+.images-droite {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* PHOTOS */
+.image-milieu img,
+.image-haut img,
+.image-bas img {
+    width: 350px;
+    height: 355px;
+    object-fit: cover;
+    display: block;
 }
