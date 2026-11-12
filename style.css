@@ -2,9 +2,8 @@
     margin: 0;
     font-family: "Antonio", sans-serif;
 }
-
 header {
-    color: white;
+    color: white
 }
 
 .palais {
@@ -88,7 +87,7 @@ header {
     align-items: center;
     gap: 600px;
     margin-bottom: 60px;
-    background-color: aqua;
+    /* background-color:whitesmoke */
 }
 
 /* BLOC TEXTES */
@@ -131,15 +130,15 @@ header {
 .images-droite {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 60px;
 }
 
 /* PHOTOS */
 .image-milieu img,
 .image-haut img,
 .image-bas img {
-    width: 350px;
-    height: 355px;
+    width: 400px;
+    height: 360px;
     object-fit: cover;
     display: block;
 }
