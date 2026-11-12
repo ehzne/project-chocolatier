@@ -2,10 +2,14 @@
     margin: 0;
     font-family: "Antonio", sans-serif;
 }
-header {
-    color: white
-}
 
+header {
+    color:white;
+    /* font-size: 25px; */
+}
+h1{
+    font-size: 60px;
+}
 .palais {
     background-color: rgb(44, 65, 44);
     height: 150px;
@@ -22,14 +26,19 @@ header {
 
 .chocolat {
     background-color: rgb(49, 16, 49);
-    height: 50px;
+    height: 60px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     text-align: initial;
     gap: 1160px;
 }
-
+.devis{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
 .catalogue {
     display: flex;
     justify-content: center;
@@ -61,8 +70,6 @@ header {
     text-align: center;
     font-size: 25px;
 }
-
-/* a faire  */
 
 /* SECTION ENGAGEMENT */
 .engagement {
@@ -102,7 +109,7 @@ header {
     /* box-sizing: border-box; */
 }
 
-/* PARAGRAPHES parfait */
+/* PARAGRAPHES */
 .bloctext p {
     font-size: 40px;
     line-height: 55px;
@@ -142,3 +149,100 @@ header {
     object-fit: cover;
     display: block;
 }
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    color: #3B251D;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-family: "Antonio", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    color: #3B251D;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-family: "Antonio", sans-serif;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.artisanaux-image {
+    height: 500px;
+}
+
+.pexels {
+    height: 500px;
+}
+
+.praline {
+    height: 700px;
+}
+
+.artisanaux img {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.produit {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.pexels {
+    height: 300px;
+}
+
+.truffe {
+    height: 300px;
+}
+
+.tabltt {
+    height: 300px;
+}
+
+.coffret {
+    height: 300px;
+}
+
+.chaud {
+    height: 300px;
+}
+
+.secs {
+    height: 300px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    color: #3B251D;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-family: "Antonio", sans-serif;
+}
+
+.temoign {
+    text-align: left;
+    line-height: 30px;
+}
+
+/* .antoine {
+
+}
+.sophie{
+
+} */
